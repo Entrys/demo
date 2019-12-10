@@ -9,11 +9,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @since 2019/12/9 16:37
  */
 @SpringBootApplication(scanBasePackages = "com.yanwei.movie")
-@MapperScan("com.yanwei.movie")
+@MapperScan("com.yanwei.movie.repository")
 public class MovieWebApplication {
     public static void main(String[] args) {
         SpringApplication.run(MovieWebApplication.class, args);
-
-
     }
 }
