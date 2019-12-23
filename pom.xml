@@ -14,6 +14,8 @@
         <module>config-server</module>
         <module>movie</module>
         <module>pom</module>
+        <module>zuul-server</module>
+        <module>eruaka-server</module>
     </modules>
 
 </project>
